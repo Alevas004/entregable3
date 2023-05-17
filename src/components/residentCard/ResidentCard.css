@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+  list-style: none;
+  margin-bottom: 0.5rem;
+  
+}
+
+.card {
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: rgba(67, 67, 67, 0.719);
+  border: 0.2rem dashed;
+  transition: 0.2s linear;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card h3 {
+  text-align: center;
+  text-shadow: 0 0.1rem 1rem;
+}
+
+li {
+  color: rgb(255, 255, 255);
+}
+
+ul li b {
+  color: greenyellow;
+  text-shadow: 0 0.1rem 2rem rgb(81, 255, 0);
+}
