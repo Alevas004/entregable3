@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { getCharacter } from "../../services/getCharacter"
-import "./residentCard.css"
+import "./ResidentCard.css"
 
 // import propTypes from 'pro-types'
 const ResidentCard = ({ url }) => {
